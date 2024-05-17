@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <h1>¡Registrate y haz parte de nuestra comunidad!</h1>
+</head>
+<body>
+    <form action="#" method="post">
+    <div>
+        <label for="Nombre">Nombres:</label>
+        <input type="text" id="Nombre" name="usuario_nombre" placeholder="Escribe tu nombre">
+    </div>
+    <div>
+        <label for="Apellido">Apellido</label>
+        <input type="text" id="Apellido" name="usuario_apellido" placeholder="Escribe tu apellido">
+    </div>
+    <div>
+        <label for="Email">Correo Electronico</label>
+        <input type="email" id="Email" name="usuario_email" placeholder="Escribe tu correo electronico">
+    </div>
+    <div>
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña" name="usuario_contraseña" placeholder="Escribe tu contraseña">
+    </div>
+    <div>
+        <label for="Confirmar_contraseña">Confirmar Contraseña</label>
+        <input type="password" id="Confirmar_contraseña" name="usuario_contraseña2" placeholder="Confirma tu contraseña">
+    </div>
+    <div>
+        <label for="Fecha_nacimiento">Fecha de Nacimiento</label>
+        <input type="date" id="Fecha_nacimiento" name="usuario_fechanacimiento">
+    </div>
+    <div>
+        <label for="Genero">Genero</label>
+        <input type="radio" id="Genero" name="usuario_genero" value="Masculino">Masculino 
+        <label for="Genero"></label>
+        <input type="radio" id="Genero" name="usuario_genero" value="Femenino">Femenino
+    </div>
+    <div>
+        <input type="checkbox" id="subscribir_boletin" name="subscribir_boletin" value="subscribir_boletin">Suscribirme al boletín de noticias
+    </div>
+    <div>
+        <label for="descripción">Describete a ti mismo</label>
+        <textarea id="descripción" name="descripción" rows="4" cols="30" placeholder="Describe tu personalidad"></textarea>>
+    </div>
+    <div>
+        <label for="intereses">Selecciona tus intereses</label>
+        <select id="intereses" name="intereses">
+           <option value="Deportes">Deportes </option>
+           <option value="Musica">Musica </option>
+           <option value="Viajes">Viajes </option>
+           <option value="Cultura">Cultura </option>
+           <option value="tecnologia">tecnologia </option>
+    </div>
+    <br>    
+        <input type="submit" value="Registrarse">
+    </form>
+     
+   
+</body>
+</html>
