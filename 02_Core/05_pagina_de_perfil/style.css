@@ -1,0 +1,219 @@
+.main-box {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: rgb(102, 102, 102);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.navbar .logo {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.edit-btn1 {
+    background: none;
+    color: lightskyblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.edit-btn3 {
+    background: lightskyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.profile-container {
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.profile-head {
+    height: 60px;
+    background-color: lightblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.profile-content {
+    padding: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.education-container {
+    width: 510px;
+    height: 180px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+}
+
+.education-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.request-container {
+    width: 385px;
+    height: 120px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.request-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.Acept-btn,
+.Deny-btn {
+    background: none;
+    border: 3px solid palevioletred;
+    border-radius: 50%;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.connections-container {
+    width: 385px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.connection-content {
+    padding: 20px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.connection img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+h2 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: gray;
+}
+
+h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: gray;
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+}
+
+.education {
+    position: relative;
+    margin-left: -79px;
+}
+
+.edit-btn2 {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.edit-btn1 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
