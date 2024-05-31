@@ -5,7 +5,7 @@ body {
     align-items: center;
 }
 
-.profile-card {
+.container {
     width: 650px;
     background: white;
     border-radius: 10px;
