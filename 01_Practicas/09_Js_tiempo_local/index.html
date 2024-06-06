@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Tiempo Local</h1>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li onclick="clickCity(1)">Buenos Aires </li>
+                    <li onclick="clickCity(2)">Ciudad de México </li>
+                    <li onclick="clickCity(3)">Santiago </li>
+                    <li onclick="clickCity(4)">Sao Paulo </li>
+                    <li onclick="clickCity(5)">Quito </li>
+                </ul>
+            </div>
+               <label>Mostar temperatura en:</label>
+            
+                <select>
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            
+        </div>
+        <div class="child">
+            <div id="mexico-child" class="boxes-container">
+
+                <h1>Ciudad de Mexico</h1>
+                
+                <div class="day">
+                    <div class="day-title">Hoy</div>
+                    <div class="weather-info">
+                        <div class="condition">Nublado</div>
+                        <div class="temperature">20°C 18°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Mañana</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">22°C 17°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Miércoles</div>
+                    <div class="weather-info">
+                        <div class="condition">Lluvioso</div>
+                        <div class="temperature">18°C 13°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Jueves</div>
+                    <div class="weather-info">
+                        <div class="condition">Nublado</div>
+                        <div class="temperature">19°C 15°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Viernes</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">21°C 17°C</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="santiago-child" class="boxes-container">
+                
+                    <h1>Santiago</h1>
+                
+                <div class="day">
+                    <div class="day-title">Hoy</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">27°C 18°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Mañana</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">25°C 27°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Miércoles</div>
+                    <div class="weather-info">
+                        <div class="condition">Lluvioso</div>
+                        <div class="temperature">16°C 16°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Jueves</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">25°C 15°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Viernes</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">26°C 17°C</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="saopaulo-child" class="boxes-container">
+                
+                    <h1>Sao Paulo</h1>
+                
+                <div class="day">
+                    <div class="day-title">Hoy</div>
+                    <div class="weather-info">
+                        <div class="condition">Lluvioso</div>
+                        <div class="temperature">20°C 19°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Mañana</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">25°C 16°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Miércoles</div>
+                    <div class="weather-info">
+                        <div class="condition">Nublado</div>
+                        <div class="temperature">17°C 14°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Jueves</div>
+                    <div class="weather-info">
+                        <div class="condition">Nublado</div>
+                        <div class="temperature">18°C 15°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Viernes</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">29°C 19°C</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="quito-child" class="boxes-container">
+                
+                    <h1>Quito</h1>
+                
+                <div class="day">
+                    <div class="day-title">Hoy</div>
+                    <div class="weather-info">
+                        <div class="condition">Nublado</div>
+                        <div class="temperature">25°C 20°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Mañana</div>
+                    <div class="weather-info">
+                        <div class="condition">Soleado</div>
+                        <div class="temperature">28°C 18°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Miércoles</div>
+                    <div class="weather-info">
+                        <div class="condition">Lluvioso</div>
+                        <div class="temperature">17°C 14°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Jueves</div>
+                    <div class="weather-info">
+                        <div class="condition">Lluvioso</div>
+                        <div class="temperature">17°C 16°C</div>
+                    </div>
+                </div>
+                <div class="day">
+                    <div class="day-title">Viernes</div>
+                    <div class="weather-info">
+                        <div class="condition">lluvioso</div>
+                        <div class="temperature">17°C 15°C</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="buenosaires-child"  class="boxes-container">
+                
+                    <h1>Buenos Aires</h1>
+                
+                    <div class="day">
+                        <div class="day-title">Hoy</div>
+                        <div class="weather-info">
+                            <div class="condition">Soleado</div>
+                            <div class="temperature">25°C 18°C</div>
+                        </div>
+                    </div>
+                    <div class="day">
+                        <div class="day-title">Mañana</div>
+                        <div class="weather-info">
+                            <div class="condition">Lluvioso</div>
+                            <div class="temperature">23°C 21°C</div>
+                        </div>
+                    </div>
+                    <div class="day">
+                        <div class="day-title">Miércoles</div>
+                        <div class="weather-info">
+                            <div class="condition">Nublado</div>
+                            <div class="temperature">20°C 15°C</div>
+                        </div>
+                    </div>
+                    <div class="day">
+                        <div class="day-title">Jueves</div>
+                        <div class="weather-info">
+                            <div class="condition">Nublado</div>
+                            <div class="temperature">20°C 16°C</div>
+                        </div>
+                    </div>
+                    <div class="day">
+                        <div class="day-title">Viernes</div>
+                        <div class="weather-info">
+                            <div class="condition">Soleado</div>
+                            <div class="temperature">26°C 20°C</div>
+                        </div>
+                    </div>
+            </div>
+            
+
+        </div>
+        <div class="footer" id="footer">
+            <P>
+                Detente! Tiempo de cookies. Usamos cookies (tristemente, no las comestibles) para personalizar contenido y anuncios, proporcionar funciones de redes sociales y analizar nuestro tráfico.
+                <a href="#">Leer más</a>
+            </p>
+                
+            <button class="edit-btn" onclick="closefooter()">Aceptar</button>
+        </div>
+
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
